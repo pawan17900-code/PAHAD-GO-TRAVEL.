@@ -4,54 +4,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PahadGo Travel | Explore Himachal</title>
-<meta name="description" content="Explore Manali, Shimla, Kasol, Jibhi, Sissu and Tirthan Valley with PahadGo Travel. Enquire for tour packages, hotels and cabs.">
-<meta name="theme-color" content="#123d32">
+<title>PahadGo Travel | Explore the Beauty of Himachal Pradesh</title>
+<meta name="description" content="Discover Manali, Shimla, Kasol, Jibhi, Sissu and Tirthan Valley with PahadGo Travel. Explore sightseeing, mountain stays, cab services and customised Himachal tour packages.">
+<meta name="theme-color" content="#12372c">
 <style>
+:root{--green:#12372c;--gold:#d8b56a;--cream:#f7f6f0;--ink:#23352d;--muted:#68766f}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,sans-serif;color:#24342e;background:#fff;line-height:1.6}
-header{background:#123d32;color:white;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
-.logo{font-size:26px;font-weight:800;letter-spacing:.5px}
-.logo span{color:#f3c96b}
-nav{display:flex;gap:18px;flex-wrap:wrap}
-nav a{color:white;text-decoration:none;font-size:14px}
-.hero{min-height:540px;display:flex;align-items:center;padding:65px 8%;color:white;background:linear-gradient(90deg,rgba(5,28,23,.82),rgba(5,28,23,.15)),url('https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1800&q=85') center/cover}
-.hero-content{max-width:620px}
-.tag{color:#f3d27c;font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:13px}
-h1{font-size:clamp(38px,6vw,66px);line-height:1.12;margin:15px 0}
-.hero p{font-size:18px;margin-bottom:25px}
-.btn{display:inline-block;background:#e7b94f;color:#18372d;padding:13px 21px;border-radius:7px;text-decoration:none;font-weight:bold;margin:4px 5px 4px 0}
-.btn.outline{background:transparent;color:white;border:1px solid white}
-section{padding:65px 7%}
-.heading{text-align:center;margin-bottom:32px}
-.heading h2{font-size:32px;color:#153e32}
-.heading p{color:#6b7771;margin-top:7px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
-.card{border:1px solid #e5ebe6;border-radius:13px;overflow:hidden;background:white;box-shadow:0 5px 18px #163c3210}
-.card img{width:100%;height:190px;object-fit:cover;display:block}
-.card-body{padding:18px}
-.card h3{font-size:21px;margin-bottom:6px;color:#173e32}
-.card p{color:#69766f;font-size:14px;margin-bottom:12px}
-.link{color:#146447;font-weight:bold;text-decoration:none}
-.soft{background:#f4f7f3}
-.service{padding:23px;border-radius:12px;background:white;border:1px solid #e4eae4}
-.service .emoji{font-size:30px}
-.service h3{margin:8px 0;color:#174536}
-.cta{background:#153e32;color:white;text-align:center}
-.cta h2{font-size:32px;margin-bottom:10px}
-.cta p{margin:0 auto 20px;max-width:650px;color:#e2e9e4}
-footer{background:#0c2922;color:#d7e2dc;text-align:center;padding:27px 6%;font-size:14px}
-footer a{color:#f3ce72;text-decoration:none}
-.wa{position:fixed;right:18px;bottom:18px;background:#20b85a;color:white;text-decoration:none;padding:13px 18px;border-radius:40px;font-weight:bold;box-shadow:0 5px 18px #0003;z-index:5}
-@media(max-width:600px){header{padding:14px 5%}nav{gap:12px}.hero{min-height:480px;padding:48px 6%}section{padding:48px 5%}.heading h2{font-size:27px}}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.7;background:white}
+a{color:inherit}
+header{position:sticky;top:0;z-index:20;background:var(--green);color:white;padding:14px 6%;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-size:25px;font-weight:800;letter-spacing:.3px}
+.logo span{color:var(--gold)}
+nav{display:flex;gap:17px;flex-wrap:wrap}
+nav a{font-size:13px;text-decoration:none;color:#fff}
+nav a:hover{color:var(--gold)}
+.hero{min-height:580px;display:flex;align-items:center;padding:70px 8%;color:white;background:linear-gradient(90deg,rgba(5,28,22,.88),rgba(5,28,22,.24)),url('https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1900&q=85') center/cover}
+.hero-content{max-width:680px}
+.eyebrow{color:#f0d18a;text-transform:uppercase;letter-spacing:2.5px;font-size:12px;font-weight:bold}
+h1{font-size:clamp(39px,6vw,68px);line-height:1.12;margin:17px 0}
+.hero p{font-size:18px;max-width:590px;color:#f4f5f1}
+.btn{display:inline-block;text-decoration:none;padding:12px 19px;border-radius:5px;font-size:14px;font-weight:bold;margin:18px 7px 0 0;background:var(--gold);color:#182f25}
+.btn-light{border:1px solid white;color:white;background:transparent}
+section{padding:70px 7%}
+.heading{text-align:center;max-width:760px;margin:0 auto 38px}
+.heading h2{font-size:clamp(27px,4vw,37px);color:var(--green);line-height:1.25}
+.heading p{color:var(--muted);margin-top:12px}
+.intro{max-width:920px;margin:auto;text-align:center}
+.intro p{margin:12px 0;color:#59685f}
+.feature-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:15px;margin-top:30px}
+.feature{padding:20px;background:white;border:1px solid #e8e9e2;border-radius:8px}
+.feature strong{display:block;color:var(--green);font-size:16px}
+.feature span{font-size:13px;color:var(--muted)}
+.destinations{background:var(--cream)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px}
+.card{background:white;border-radius:9px;overflow:hidden;border:1px solid #e8e9e2;box-shadow:0 7px 25px #17372b0b;display:flex;flex-direction:column}
+.card img{width:100%;height:225px;object-fit:cover;display:block;background:#dfe7df}
+.card-body{padding:22px;display:flex;flex-direction:column;flex:1}
+.location{color:#98722e;text-transform:uppercase;font-size:11px;letter-spacing:1.4px;font-weight:bold}
+.card h3{font-size:24px;color:var(--green);margin:5px 0 10px}
+.card p{font-size:14px;color:#5f6d64;margin-bottom:12px}
+.card h4{font-size:14px;margin:7px 0;color:var(--green)}
+.card ul{padding-left:19px;margin-bottom:15px;color:#59685f;font-size:13px}
+.card li{padding:2px 0}
+.card .btn{align-self:flex-start;margin-top:auto}
+.note{font-size:12px;color:#6d786f;margin-top:22px;text-align:center}
+.soft{background:#f4f6f1}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.service{padding:25px;background:white;border:1px solid #e7eae3;border-radius:8px}
+.service .emoji{font-size:29px}
+.service h3{margin:8px 0;color:var(--green)}
+.service p{font-size:14px;color:var(--muted)}
+.steps{max-width:850px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px}
+.step{padding:22px;border-left:3px solid var(--gold);background:#fff}
+.step strong{display:block;color:var(--green);margin-bottom:7px}
+.step p{font-size:14px;color:var(--muted)}
+.faq{max-width:850px;margin:auto}
+details{padding:18px 5px;border-bottom:1px solid #e0e6de}
+summary{cursor:pointer;font-weight:bold;color:var(--green)}
+details p{font-size:14px;color:var(--muted);padding-top:10px}
+.cta{background:var(--green);color:white;text-align:center}
+.cta h2{font-size:clamp(28px,4vw,38px);line-height:1.3}
+.cta p{max-width:670px;margin:14px auto;color:#e0e9e2}
+footer{background:#0b241c;color:#dce5de;text-align:center;padding:30px 6%;font-size:13px}
+footer p{margin:5px 0}
+footer a{color:var(--gold)}
+.wa{position:fixed;right:16px;bottom:17px;background:#168c4b;color:white;text-decoration:none;padding:12px 17px;border-radius:30px;font-size:14px;font-weight:bold;box-shadow:0 4px 18px #0003;z-index:30}
+@media(max-width:600px){header{padding:12px 5%}.logo{font-size:23px}nav{gap:12px}nav a{font-size:12px}.hero{min-height:500px;padding:48px 6%}section{padding:53px 5%}.grid{grid-template-columns:1fr}.card img{height:220px}}
 </style>
 </head>
 <body>
+
 <header>
   <div class="logo">Pahad<span>Go</span> 🏔️</div>
   <nav>
     <a href="#home">Home</a>
+    <a href="#about">About</a>
     <a href="#destinations">Destinations</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
@@ -61,73 +89,220 @@ footer a{color:#f3ce72;text-decoration:none}
 <main>
 <section class="hero" id="home">
   <div class="hero-content">
-    <div class="tag">Your Himachal Journey Begins Here</div>
-    <h1>Find Your Peace in the Mountains</h1>
-    <p>Discover Himachal Pradesh with PahadGo Travel. Beautiful destinations, comfortable stays and trips planned around you.</p>
-    <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel%2C%20I%20want%20to%20plan%20a%20trip." target="_blank" rel="noopener">Plan My Trip ↗</a>
-    <a class="btn outline" href="#destinations">Explore Places</a>
+    <div class="eyebrow">Your journey into the Himalayas</div>
+    <h1>Discover Himachal. Collect Memories.</h1>
+    <p>From snowy mountain adventures in Manali to peaceful riverside escapes in Tirthan Valley, discover the places, experiences and stays that make Himachal special.</p>
+    <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel%2C%20help%20me%20plan%20my%20Himachal%20trip." target="_blank" rel="noopener">Plan Your Trip ↗</a>
+    <a class="btn btn-light" href="#destinations">Explore Destinations</a>
   </div>
 </section>
 
-<section id="destinations">
-  <div class="heading">
-    <h2>Explore Himachal Pradesh</h2>
-    <p>Your next mountain escape is waiting for you.</p>
+<section id="about">
+  <div class="intro">
+    <div class="eyebrow">Welcome to PahadGo Travel</div>
+    <div class="heading" style="margin-top:10px;margin-bottom:18px">
+      <h2>Your Himachal Holiday, Planned Around You</h2>
+    </div>
+    <p>Himachal Pradesh is a land of towering mountains, pine forests, winding roads, charming villages and beautiful valleys. Every destination has a different story to tell, whether you are looking for adventure, a romantic getaway, a family holiday or a peaceful break from city life.</p>
+    <p>At PahadGo Travel, you can enquire about tour packages, hotel stays, sightseeing and cab arrangements for your preferred destination. Tell us your travel dates, number of guests and budget so we can discuss suitable options for your journey.</p>
   </div>
-  <div class="grid">
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=700&q=80" alt="Manali mountain scenery" loading="lazy">
-      <div class="card-body"><h3>Manali</h3><p>Mountain views, snow adventures and memorable holidays.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Manali%20tour%20package." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=700&q=80" alt="Himalayan hill destination" loading="lazy">
-      <div class="card-body"><h3>Shimla</h3><p>Enjoy charming hill roads, scenic views and relaxing stays.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Shimla%20tour%20package." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=700&q=80" alt="Beautiful nature and forest" loading="lazy">
-      <div class="card-body"><h3>Tirthan Valley</h3><p>Quiet nature escapes, riverside views and mountain air.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Tirthan%20Valley%20tour." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80" alt="High Himalayan mountain peaks" loading="lazy">
-      <div class="card-body"><h3>Kasol</h3><p>Explore mountain trails, riverside spots and relaxed village life.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Kasol%20tour%20package." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80" alt="Green mountain valley" loading="lazy">
-      <div class="card-body"><h3>Jibhi</h3><p>A peaceful getaway surrounded by forests and scenic valleys.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Jibhi%20tour%20package." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
-    <article class="card">
-      <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=700&q=80" alt="Snow covered mountain landscape" loading="lazy">
-      <div class="card-body"><h3>Sissu</h3><p>Experience dramatic mountain landscapes and a refreshing escape.</p><a class="link" href="https://wa.me/916230017900?text=I%20want%20a%20Sissu%20tour%20package." target="_blank" rel="noopener">Enquire Now →</a></div>
-    </article>
+  <div class="feature-row">
+    <div class="feature"><strong>🏔️ Scenic Destinations</strong><span>Explore mountains, valleys, villages and rivers.</span></div>
+    <div class="feature"><strong>🧭 Flexible Trips</strong><span>Discuss family, couple and group travel plans.</span></div>
+    <div class="feature"><strong>🏨 Stay Enquiries</strong><span>Ask about accommodation for your dates.</span></div>
+    <div class="feature"><strong>💬 Direct Contact</strong><span>Speak with us on WhatsApp before planning.</span></div>
   </div>
 </section>
 
-<section class="soft" id="services">
+<section class="destinations" id="destinations">
   <div class="heading">
-    <h2>Travel Services</h2>
-    <p>One place for planning your Himachal holiday.</p>
+    <div class="eyebrow">Find your next escape</div>
+    <h2>Explore Our Destinations</h2>
+    <p>Read about each place, discover popular experiences and enquire about a trip that suits your interests.</p>
   </div>
+
   <div class="grid">
-    <div class="service"><div class="emoji">🧳</div><h3>Tour Packages</h3><p>Family, honeymoon, group and customised trip enquiries.</p></div>
-    <div class="service"><div class="emoji">🏨</div><h3>Hotel Booking</h3><p>Ask us about accommodation options for your travel dates.</p></div>
-    <div class="service"><div class="emoji">🚗</div><h3>Cab Services</h3><p>Enquire about local sightseeing and travel transfers.</p></div>
-    <div class="service"><div class="emoji">💚</div><h3>Personal Assistance</h3><p>Contact us to discuss your itinerary and travel needs.</p></div>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=85" alt="Mountain scenery in the Manali region" loading="lazy">
+      <div class="card-body">
+        <div class="location">Adventure · Snow · Mountains</div>
+        <h3>Manali</h3>
+        <p>Manali is one of Himachal's best-known mountain destinations, surrounded by forested slopes, the Beas River and dramatic Himalayan scenery. It is popular with couples, families, friends and adventure lovers.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>Hadimba Devi Temple and Old Manali</li>
+          <li>Solang Valley for mountain activities</li>
+          <li>Atal Tunnel and Sissu on suitable routes</li>
+          <li>Local cafés, markets and riverside scenery</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>3–4 days for a relaxed trip, depending on your sightseeing plans and road conditions.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Manali%20tour%20options." target="_blank" rel="noopener">Enquire About Manali</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=900&q=85" alt="Scenic Himalayan hill landscape" loading="lazy">
+      <div class="card-body">
+        <div class="location">Heritage · Views · Family Trips</div>
+        <h3>Shimla</h3>
+        <p>Shimla combines colonial-era architecture, lively streets, forested hills and beautiful viewpoints. It is a popular choice for first-time visitors, families and couples who want a classic hill-station holiday.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>The Ridge and Christ Church area</li>
+          <li>Mall Road for shopping and cafés</li>
+          <li>Kufri for mountain scenery and activities</li>
+          <li>Jakhoo Temple and surrounding viewpoints</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>2–3 days, with additional time if you want nearby excursions.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Shimla%20tour%20options." target="_blank" rel="noopener">Enquire About Shimla</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=85" alt="Green woodland and nature landscape" loading="lazy">
+      <div class="card-body">
+        <div class="location">Nature · Riverside · Slow Travel</div>
+        <h3>Tirthan Valley</h3>
+        <p>Tirthan Valley is known for its peaceful surroundings, clear mountain streams, traditional villages and forested landscapes. It is ideal for travellers who want to slow down, enjoy nature and spend time away from crowded towns.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>Tirthan River and riverside spots</li>
+          <li>Gushaini village and local scenery</li>
+          <li>Nature walks and village experiences</li>
+          <li>Great Himalayan National Park region</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>2–3 days for a relaxed valley stay. Park access and hikes may require permits or local guidance.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Tirthan%20Valley%20tour%20options." target="_blank" rel="noopener">Enquire About Tirthan</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85" alt="Tall Himalayan mountain peaks" loading="lazy">
+      <div class="card-body">
+        <div class="location">Cafés · River · Backpacking</div>
+        <h3>Kasol</h3>
+        <p>Kasol sits beside the Parvati River and is known for its mountain views, relaxed café culture and access to nearby villages. It attracts backpackers, groups of friends and travellers seeking a mix of nature and local culture.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>Parvati River and scenic walking areas</li>
+          <li>Kasol market and cafés</li>
+          <li>Nearby Chalal village walking route</li>
+          <li>Manikaran Sahib and its hot springs</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>2–3 days, depending on whether you add nearby village excursions.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Kasol%20tour%20options." target="_blank" rel="noopener">Enquire About Kasol</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Peaceful green valley landscape" loading="lazy">
+      <div class="card-body">
+        <div class="location">Village Life · Forests · Relaxation</div>
+        <h3>Jibhi</h3>
+        <p>Jibhi is a charming mountain village with forested hills, wooden-style architecture, streams and a quiet atmosphere. It suits couples, small groups and travellers looking for a slower, nature-focused holiday.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>Jibhi Waterfall and forest paths</li>
+          <li>Traditional village surroundings</li>
+          <li>Nearby Jalori Pass, when accessible</li>
+          <li>Serolsar Lake hike, conditions permitting</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>2–3 days for the village and nearby attractions. Check weather before high-altitude excursions.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Jibhi%20tour%20options." target="_blank" rel="noopener">Enquire About Jibhi</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=85" alt="Snow-covered Himalayan landscape" loading="lazy">
+      <div class="card-body">
+        <div class="location">High Mountains · Snow · Photography</div>
+        <h3>Sissu</h3>
+        <p>Sissu is a scenic village in the Lahaul region, reached through the Manali–Leh highway and Atal Tunnel route when conditions permit. It is known for stark mountain landscapes, open valleys and striking seasonal scenery.</p>
+        <h4>What can you explore?</h4>
+        <ul>
+          <li>Sissu village and surrounding valley</li>
+          <li>Sissu Waterfall, depending on season</li>
+          <li>Mountain photography and scenic stops</li>
+          <li>Local landscapes and high-altitude views</li>
+        </ul>
+        <h4>Suggested duration</h4>
+        <p>A day trip from Manali or an overnight stay, depending on road and weather conditions.</p>
+        <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%2C%20please%20share%20Sissu%20trip%20options." target="_blank" rel="noopener">Enquire About Sissu</a>
+      </div>
+    </article>
+
+  </div>
+  <p class="note">Travel durations are suggestions, not fixed itineraries. Attractions, road access and activities depend on weather, season, permissions and local conditions.</p>
+</section>
+
+<section id="services">
+  <div class="heading">
+    <div class="eyebrow">Travel made simpler</div>
+    <h2>How We Can Help</h2>
+    <p>Tell us what kind of holiday you want. We can discuss available options for your dates and budget.</p>
+  </div>
+  <div class="services">
+    <div class="service"><div class="emoji">🧳</div><h3>Tour Packages</h3><p>Enquire about couple, honeymoon, family, group and customised Himachal itineraries.</p></div>
+    <div class="service"><div class="emoji">🏨</div><h3>Hotel Booking</h3><p>Ask about suitable stays, room categories, views and meal plans for your travel dates.</p></div>
+    <div class="service"><div class="emoji">🚗</div><h3>Cab & Sightseeing</h3><p>Discuss local sightseeing, airport or bus-stand transfers and intercity travel options.</p></div>
+    <div class="service"><div class="emoji">💑</div><h3>Honeymoon Trips</h3><p>Plan a romantic mountain getaway with suitable stays and sightseeing options.</p></div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="heading">
+    <div class="eyebrow">Easy planning</div>
+    <h2>How to Plan Your Trip</h2>
+    <p>A simple enquiry helps us understand what you need before discussing suitable options.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><strong>01. Choose a Destination</strong><p>Tell us whether you want Manali, Shimla, Kasol or another Himachal destination.</p></div>
+    <div class="step"><strong>02. Share Your Details</strong><p>Send your dates, number of travellers, trip duration and approximate budget.</p></div>
+    <div class="step"><strong>03. Discuss Your Plan</strong><p>Ask about itinerary options, hotel availability, transport and inclusions.</p></div>
+    <div class="step"><strong>04. Confirm Your Booking</strong><p>Review the final price, inclusions, cancellation terms and booking details before paying.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="heading">
+    <div class="eyebrow">Helpful information</div>
+    <h2>Frequently Asked Questions</h2>
+  </div>
+  <div class="faq">
+    <details><summary>Which destinations can I enquire about?</summary><p>You can enquire about Manali, Shimla, Kasol, Jibhi, Tirthan Valley and Sissu. Tell us your travel dates and preferred route to discuss a suitable plan.</p></details>
+    <details><summary>Can I customise my tour package?</summary><p>You can share your interests, travel dates, group size and budget. Available options and the final itinerary can then be discussed before confirmation.</p></details>
+    <details><summary>Are hotel and cab services included in every package?</summary><p>Not necessarily. Inclusions depend on the specific offer. Always confirm accommodation, vehicle, meals, sightseeing, entry fees and other costs before booking.</p></details>
+    <details><summary>When is the best time to visit Himachal?</summary><p>Spring and summer are popular for comfortable sightseeing, while autumn offers crisp views. Winter may bring snow to some destinations. Weather, road access and high-altitude routes vary by season.</p></details>
+    <details><summary>How do I get package prices?</summary><p>Contact us on WhatsApp with your dates, number of guests, nights and preferred destination. Prices depend on availability, season, hotel category and transport requirements.</p></details>
   </div>
 </section>
 
 <section class="cta" id="contact">
-  <h2>Let's Plan Your Mountain Escape</h2>
-  <p>Tell us your destination, travel dates and group size. Contact PahadGo Travel on WhatsApp to discuss your trip.</p>
-  <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel%2C%20please%20help%20me%20plan%20my%20trip." target="_blank" rel="noopener">Chat on WhatsApp</a>
+  <div class="eyebrow">Your next adventure starts here</div>
+  <h2>Let's Plan Your Himachal Trip</h2>
+  <p>Have a destination in mind? Message PahadGo Travel with your travel dates, number of guests and budget to discuss suitable tour, hotel and cab options.</p>
+  <a class="btn" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel!%20My%20destination%20is%3A%20%0ATravel%20dates%3A%20%0ANumber%20of%20guests%3A%20%0ANumber%20of%20nights%3A%20%0ABudget%3A%20" target="_blank" rel="noopener">Message Us on WhatsApp ↗</a>
+  <p>WhatsApp: +91 62300 17900</p>
 </section>
 </main>
 
 <footer>
   <div class="logo">Pahad<span>Go</span> 🏔️</div>
-  <p>Discover Himachal. Collect memories.</p>
+  <p>Explore Himachal. Experience the mountains.</p>
   <p>WhatsApp: <a href="https://wa.me/916230017900">+91 62300 17900</a></p>
-  <p>© <span id="year">2026</span> PahadGo Travel. All rights reserved.</p>
+  <p>© 2026 PahadGo Travel. All rights reserved.</p>
+  <p>Travel details and availability should be confirmed before booking.</p>
 </footer>
-<a class="wa" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel" target="_blank" rel="noopener">WhatsApp ↗</a>
+
+<a class="wa" href="https://wa.me/916230017900?text=Hello%20PahadGo%20Travel%2C%20I%20want%20to%20plan%20a%20trip." target="_blank" rel="noopener">WhatsApp ↗</a>
 </body>
 </html>
+
+
+
